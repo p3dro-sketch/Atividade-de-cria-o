@@ -1,0 +1,75 @@
+body {
+    background-color: #171827;
+    color: white;
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #7dd3fc;
+    text-align: center;
+}
+
+h2 {
+    color: #c4b5fd;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+li {
+    margin: 10px;
+}
+
+a {
+    color: #7dd3fc;
+}
+img {
+    width: 900px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+.personagens {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.personagem {
+    background-color: #25263a;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s;
+}
+
+.personagem:hover {
+    transform: translateY(-8px);
+}
+
+.personagem img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.personagem h3 {
+    color: #7dd3fc;
+    font-size: 22px;
+    margin: 15px 10px 10px;
+}
+
+.personagem p {
+    color: #eeeeee;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0 20px 20px;
+    margin: 0;
+}
